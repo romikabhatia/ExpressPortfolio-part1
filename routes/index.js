@@ -20,17 +20,23 @@ router.get('/about', function(req, res, next) {
 /* GET project page. */
 router.get('/project', function(req, res, next) {
   res.render('project', {
-    title: 'Project' });
+    title: 'Project',
+    aboutInfo: 'someInfo'
+  });
 });
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', {
-    title: 'Contact' });
+    title: 'Contact',
+    aboutInfo: 'someInfo'
+  });
 });
 /* GET services page. */
 router.get('/services', function(req, res, next) {
   res.render('services', {
-    title: 'Services' });
+    title: 'Services',
+    aboutInfo: 'someInfo'
+  });
 });
 
 module.exports = router;
