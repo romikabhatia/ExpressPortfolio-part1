@@ -1,3 +1,26 @@
+/*
+File Name: style.css
+Author: Romika Bhatia
+Website Name: romika BhatiaPortfolio
+Description: The following code is the bootstrap/css stylesheet which is linked to the header.ejs
+This style is a custom style for various classes throughout the Website
+
+
+
+
+/** CSS Stylesheet **/
+
+body
+{
+  padding: 5px;
+  font: 15px "Lucida Grande", Arial, sans-serif;
+  height: 100%;
+}
+font-face
+{
+  font-family: Georgia;
+}
+
 
 
 body{
