@@ -20,8 +20,14 @@ font-face
 {
   font-family: Georgia;
 }
-
-
+.content{
+  height: 100%;
+}
+/* style for header.ejs **/
+h1.name{
+  font-family: Arial;
+  font-size: 120px;
+}
 
 body{
   background-image: url('../images/background.jpg');
