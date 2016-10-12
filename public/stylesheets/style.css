@@ -30,10 +30,11 @@ h1.name{
 }
 
 /**  Style fir the footer.ejs **/
-.footer-container{
+.footer-container {
   height: auto;
   background-color: rgba(240, 233, 236, 0.66);
 }
+
 body{
   background-image: url('../images/background.jpg');
 }
