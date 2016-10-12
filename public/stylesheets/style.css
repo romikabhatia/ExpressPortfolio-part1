@@ -29,6 +29,11 @@ h1.name{
   font-size: 120px;
 }
 
+/**  Style fir the footer.ejs **/
+.footer-container{
+  height: auto;
+  background-color: rgba(240, 233, 236, 0.66);
+}
 body{
   background-image: url('../images/background.jpg');
 }
