@@ -1,30 +1,32 @@
 <% include partials/header.ejs %>
-<main class="container">
-    <h1><%= title %></h1>
-    <form action="index" method="post" enctype="text/plain">
-        Name:
-        <br>
-        <input type="text" name="name" value="your name">
-        <br> E-mail:
-        <br>
-        <input type="text" name="mail" value="your email">
-        <br> Comment:
-        <br>
-        <input type="text" name="comment" value="your comment" size="50">
-        <br>
-        <br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-    </form>
-
+<main class = "container">
     <h1 class="text-center home-title">Romika Bhatia</h1>
+    <h1><%= title %></h1>
+<form method="post" action ="https://www.gmail.com" role="form">
+    <div class = "form-group">
+        <link rel="stylesheet" type = "text/css" media="all">
+
+        <label for="contactname">Name</label>
+        <input type="text" class = "form-control" id="contactname">
+    </div>
+    <div class = "formm-group">
+        <label for="contactemail">Email Address</label>
+        <input type="email" class= "form-control" id="contactemail">
+    </div>
+    <div class = "formm-group">
+        <label for="contactsubject">Subject</label>
+        <input type="text" class= "form-control" id="contactsubject">
+    </div>
+    <div class = "formm-group">
+        <label for= "contactmessage">Message</label>
+        <textarea class="form-control" id= "contactmessage" rows="6"></textarea>
+    </div>
+    <button type="submit" class= "btn btn-default">Submit</button>
+    </form>
+    </main>
     <h3 class="text-center typed-header-sub-title"></h3>
     <ul class="social-links">
         <li><a title="Facebook profile" href="https://www.facebook.com/profile.php?id=100008268939979">Facebook</a></li>
-        <li><a title="Google plus profile" href="https://plus.google.com/101340480310801355869/about">Google+</a></li>
+        <li><a title="Google plus profile" href="https://plus.google.com/102755864955349579845">Google+</a></li>
     </ul>
-
-</main>
-
-
 <% include partials/footer.ejs %>
