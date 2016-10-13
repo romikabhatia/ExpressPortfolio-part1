@@ -1,7 +1,7 @@
 /*
 File Name: style.css
 Author: Romika Bhatia
-Website Name: romika BhatiaPortfolio
+Website Name: Romika Bhatia Portfolio
 Description: The following code is the bootstrap/css stylesheet which is linked to the header.ejs
 This style is a custom style for various classes throughout the Website
 
@@ -31,29 +31,12 @@ h1.name{
   font-family: Arial;
   font-size: 120px;
 }
-input,textarea{
-  padding: 10px;
-  border: 1px solid #e5e5e5;
-  width: 200px;
-  box-shadow: rgba(0, 0, 0,0.1) 0px 0px 7px;
-}
+
 textarea{
   width:350px;
   height:150px;
   max-width: 400px;
   line-height: 19px;
-}
-.form label{
-  margin-left: 10px;
-  color: #999999;
-}
-
-.submit input{
-  width: 100px;
-  height: 50px;
-  background-color: #474E69;
-  color: #FFF;
-  border-radius: 3px;
 }
 
 /**  Style fir the footer.ejs **/
